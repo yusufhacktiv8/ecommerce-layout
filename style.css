@@ -1,0 +1,40 @@
+/* Style Default */
+body {
+  font-family: Lato,Helvetica,Arial,sans-serif;
+}
+
+header {
+  height: 120px;
+  background-color: #384245;
+}
+
+.header-logo {
+  background: url('images/logo.png');
+  display: block;
+  width: 240px;
+  height: 63px;
+  margin-left: 50px;
+  margin-top: 25px;
+  float: left;
+}
+
+.search-container {
+  display: flex;
+  width: 100%;
+  height: 53px;
+  background-color: #30383B;
+}
+
+.search-item {
+  color: #fff;
+  height: 50px;
+  padding: 10px;
+  flex-grow: 2;
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.search-bar {
+  display: flex;
+}
